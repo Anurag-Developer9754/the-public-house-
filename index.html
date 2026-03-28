@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Public House — Bhopal</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Cormorant+Garamond:wght@300;400;500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">The Public House</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="https://zomato.com" target="_blank" class="btn-reserve">Reserve a Table</a>
+    <button class="hamburger" id="hamburger">&#9776;</button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="close-menu" id="closeMenu">&#10005;</button>
+    <ul>
+      <li><a href="#about" onclick="closeMobile()">About</a></li>
+      <li><a href="#menu" onclick="closeMobile()">Menu</a></li>
+      <li><a href="#gallery" onclick="closeMobile()">Gallery</a></li>
+      <li><a href="#reviews" onclick="closeMobile()">Reviews</a></li>
+      <li><a href="#contact" onclick="closeMobile()">Contact</a></li>
+      <li><a href="https://zomato.com" target="_blank" class="btn-reserve">Reserve</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-image-wrap">
+      <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1600&q=80" alt="Restaurant ambience" class="hero-img" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-tag">All You Can Eat · Rooftop · Private Dining</p>
+      <h1 class="hero-title">The Public<br /><em>House</em></h1>
+      <p class="hero-sub">Where every evening becomes a story worth telling.</p>
+      <div class="hero-btns">
+        <a href="https://zomato.com" target="_blank" class="btn-primary">Book on Zomato</a>
+        <a href="https://swiggy.com" target="_blank" class="btn-outline">Order on Swiggy</a>
+      </div>
+      <div class="hero-badges">
+        <div class="badge"><span class="badge-score">4.3</span><span>Zomato</span><div class="stars">★★★★☆</div></div>
+        <div class="badge-divider"></div>
+        <div class="badge"><span class="badge-score">4.4</span><span>Facebook</span><div class="stars">★★★★☆</div></div>
+        <div class="badge-divider"></div>
+        <div class="badge"><span class="badge-score">4.3</span><span>Justdial</span><div class="stars">★★★★☆</div></div>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="about-image-col">
+      <img src="https://images.unsplash.com/photo-1514190051997-0f6f39ca5cde?w=800&q=80" alt="Restaurant interior" class="about-img" />
+      <div class="about-float-badge">
+        <p>Open Daily</p>
+        <strong>Until 11 PM</strong>
+      </div>
+    </div>
+    <div class="about-content-col">
+      <span class="section-tag">Our Story</span>
+      <h2 class="section-title">A Place to<br /><em>Gather & Feast</em></h2>
+      <p class="about-desc">Nestled in the heart of Bhopal's Shivaji Nagar, The Public House is more than a restaurant — it's a destination. From our rooftop views to our exclusive private dining room, every corner is crafted to create moments that linger.</p>
+      <p class="about-desc">Indulge in our all-you-can-eat spreads, savour curated cocktails, and let the warm ambience do the rest.</p>
+      <div class="about-features">
+        <div class="feature-item">
+          <div class="feature-icon">🍽️</div>
+          <div><strong>All You Can Eat</strong><p>Unlimited spreads crafted fresh daily</p></div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">🌇</div>
+          <div><strong>Rooftop Seating</strong><p>Stunning skyline views with every meal</p></div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">🔒</div>
+          <div><strong>Private Dining</strong><p>Exclusive room for intimate gatherings</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU HIGHLIGHT -->
+  <section class="menu-section section" id="menu">
+    <div class="menu-header">
+      <span class="section-tag center">What We Serve</span>
+      <h2 class="section-title center">Crafted with <em>Passion</em></h2>
+      <p class="menu-sub">From sizzling starters to show-stopping mains — explore a menu that celebrates bold flavours.</p>
+    </div>
+    <div class="menu-grid">
+      <div class="menu-card">
+        <div class="menu-card-img-wrap">
+          <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&q=80" alt="Starters" />
+          <div class="menu-card-overlay"><span>Starters</span></div>
+        </div>
+        <div class="menu-card-body">
+          <h3>Starters & Snacks</h3>
+          <p>Crispy, bold, and designed to ignite the appetite. Perfect for sharing.</p>
+        </div>
+      </div>
+      <div class="menu-card featured">
+        <div class="menu-card-img-wrap">
+          <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=600&q=80" alt="Main Course" />
+          <div class="menu-card-overlay"><span>Mains</span></div>
+        </div>
+        <div class="menu-card-body">
+          <h3>All You Can Eat Mains</h3>
+          <p>Rich, hearty, and endlessly refillable. A true feast for every palate.</p>
+          <span class="menu-badge">Most Loved</span>
+        </div>
+      </div>
+      <div class="menu-card">
+        <div class="menu-card-img-wrap">
+          <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?w=600&q=80" alt="Desserts" />
+          <div class="menu-card-overlay"><span>Desserts</span></div>
+        </div>
+        <div class="menu-card-body">
+          <h3>Desserts & Drinks</h3>
+          <p>End on a sweet note — decadent desserts & handcrafted beverages.</p>
+        </div>
+      </div>
+    </div>
+    <div class="menu-cta">
+      <a href="https://thepublichouse.petpooja.com" target="_blank" class="btn-primary">View Full Menu →</a>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery-section section" id="gallery">
+    <div class="gallery-header">
+      <span class="section-tag center">Atmosphere</span>
+      <h2 class="section-title center">Step Inside <em>Our World</em></h2>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item tall">
+        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80" alt="Interior" />
+        <div class="gallery-hover"><span>Beautiful Interiors</span></div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80" alt="Food" />
+        <div class="gallery-hover"><span>Quality Food</span></div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1550966871-3ed3cfd97442?w=600&q=80" alt="Bar" />
+        <div class="gallery-hover"><span>Craft Drinks</span></div>
+      </div>
+      <div class="gallery-item wide">
+        <img src="https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?w=1000&q=80" alt="Rooftop" />
+        <div class="gallery-hover"><span>Rooftop Evenings</span></div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1559305616-3f99cd43e353?w=600&q=80" alt="Private Dining" />
+        <div class="gallery-hover"><span>Private Dining</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="reviews-section section" id="reviews">
+    <div class="reviews-header">
+      <span class="section-tag center">What Guests Say</span>
+      <h2 class="section-title center">Stories of <em>Great Evenings</em></h2>
+    </div>
+    <div class="reviews-grid">
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p>"It's a nice place to hangout, beautiful ambience and quality food at good prices."</p>
+        <div class="review-author">— Google Review</div>
+        <div class="review-source">Google</div>
+      </div>
+      <div class="review-card highlight">
+        <div class="review-stars">★★★★★</div>
+        <p>"Beautiful interiors, though the music is loud for a small place of its size."</p>
+        <div class="review-author">— Google Review</div>
+        <div class="review-source">Google</div>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p>"Good atmosphere and great service with friendly staff."</p>
+        <div class="review-author">— Google Review</div>
+        <div class="review-source">Google</div>
+      </div>
+    </div>
+    <div class="ratings-row">
+      <div class="rating-pill">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Zomato_logo.png" alt="Zomato" class="rating-logo" />
+        <span>4.3 / 5</span><small>920 votes</small>
+      </div>
+      <div class="rating-pill">
+        <span class="rating-fb">f</span>
+        <span>4.4 / 5</span><small>72 votes</small>
+      </div>
+      <div class="rating-pill">
+        <span class="rating-jd">JD</span>
+        <span>4.3 / 5</span><small>6,978 votes</small>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / CTA -->
+  <section class="contact-section section" id="contact">
+    <div class="contact-map-col">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.2!2d77.4126!3d23.2599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDE1JzM1LjYiTiA3N8KwMjQnNDUuNCJF!5e0!3m2!1sen!2sin!4v1680000000000"
+        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade" title="Map">
+      </iframe>
+    </div>
+    <div class="contact-info-col">
+      <span class="section-tag">Find Us</span>
+      <h2 class="section-title">Visit <em>The Public House</em></h2>
+      <div class="contact-details">
+        <div class="contact-item">
+          <div class="contact-icon">📍</div>
+          <div>
+            <strong>Address</strong>
+            <p>Lower Ground Floor, Mahadev Complex 7, Service Road,<br />Opp. Board Office, Shivaji Nagar, Bhopal, MP 462011</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📞</div>
+          <div>
+            <strong>Phone</strong>
+            <p><a href="tel:+917999192203">079991 92203</a></p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">🕙</div>
+          <div>
+            <strong>Hours</strong>
+            <p>Open Daily · Closes 11 PM</p>
+          </div>
+        </div>
+      </div>
+      <div class="contact-btns">
+        <a href="https://zomato.com" target="_blank" class="btn-primary">Reserve on Zomato</a>
+        <a href="https://swiggy.com" target="_blank" class="btn-outline">Order on Swiggy</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-brand">The Public House</div>
+    <p class="footer-tagline">Bhopal's Premier Dining Destination</p>
+    <div class="footer-links">
+      <a href="https://thepublichouse.petpooja.com" target="_blank">Menu</a>
+      <a href="https://zomato.com" target="_blank">Zomato</a>
+      <a href="https://swiggy.com" target="_blank">Swiggy</a>
+      <a href="tel:+917999192203">Call Us</a>
+    </div>
+    <p class="footer-copy">© 2025 The Public House, Bhopal. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
